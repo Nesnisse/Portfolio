@@ -162,10 +162,10 @@ p {
     margin-bottom: 1px;
 }
 
-.exemple a {
-    display: block;
-    width: 100%;
-    height: 100%;
+.exemple {
+    height: 200px;
+    position: relative;
+    margin-bottom: 1px;
 }
 
 .exemple img {
