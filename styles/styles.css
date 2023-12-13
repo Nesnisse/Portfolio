@@ -7,11 +7,11 @@
    }
    
 .barre {
-    background-color: beige; /* Ajoutez votre couleur de fond souhaitée */
+    background-color: beige; 
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Assurez-vous que le z-index est plus élevé que le reste du contenu */
+    z-index: 1000; 
 }
 
 .barre ul {
@@ -27,13 +27,11 @@
 
 .barre a {
     display: block;
-    color: black; /* Ajoutez votre couleur de texte souhaitée */
+    color: black; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* Ajoutez des styles supplémentaires selon vos besoins */
 
 * {
     margin: 0;
@@ -51,14 +49,12 @@ body {
     background-color: black;
     position: relative;
 }
-
 .slider-background {
     width: 100%;
     height: 100%;
     object-fit: cover;
     
 }
-
 .slider-content {
     position: absolute;
     top: 50%;
@@ -95,11 +91,6 @@ p {
 .slider-content p {
     font-size: 2rem;
 }
-
-.section {
-    padding: 100px 0;
-}
-
 .boxed {
     max-width: 1280px;
     margin-inline: auto;
@@ -146,7 +137,6 @@ p {
 .skill img {
     width: 100px;
     height: 100px;
-    aspect-ratio: 1/1;
     object-fit: contain;
 }
 
@@ -157,13 +147,7 @@ p {
 }
 
 .exemple {
-    height: auto;
-    position: relative;
-    margin-bottom: 1px;
-}
-
-.exemple {
-    height: 200px;
+    height: 200px; 
     position: relative;
     margin-bottom: 1px;
 }
@@ -176,18 +160,26 @@ p {
     transition: 0.4s ease;
 }
 
-.exemple:hover img {
+.exemple a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.exemple:hover img { 
     filter: brightness(90%);
 }
 
 .section.beige {
     background: beige;
     color: black;
+    padding: 100px 0;
 }
 
 .section {
     background: white;
     color: black;
+    padding: 100px 0;
 }
 .option-container {
     display: flex;
@@ -215,5 +207,6 @@ p {
 .subtitle {
     color: pink;
 }
+
 
    
