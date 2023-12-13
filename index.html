@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio Nesrine LATRACHE</title>
+    <meta type="description" content="Ceci est mon portfolio étudiante"/>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+<body>
+<ul class="barre">
+    <li><a href="#accueil">Accueil</a></li>
+    <li><a href="#me">À propos de moi</a></li>
+    <li><a href="#competences"> Compétences</a></li>
+    <li><a href="#projet"> Projet</a></li>
+    <li><a href="#formations">Formations</a></li>
+    <li><a href="#contacter">Contact</a></li>
+    
+    </ul>
+
+    <div class="slider">
+        <img src="img/slider.jpg" class="slider-background">
+        <div class="slider-content">
+            <h1 class="animated-title" id="accueil">Nesrine LATRACHE</h1>
+            <p>Etudiante en L2 MIASHS (renforcement informatique)</p>
+        </div>
+    </div>
+    
+    <div class="section">
+      <h1 id="me"> À propos de moi </h1> <br>
+        <div class="boxed">
+            <div class="flex">
+                <div class="w100 text-center">
+                    <div class="option-container">
+                        <div class="option" onclick="showInfo('presentation')">Présentation</div>
+                        <div class="option" onclick="showInfo('langue')">Langues</div>
+                        <div class="option" onclick="showInfo('passions')">Passions</div>
+                    </div>
+                </div>
+            </div>
+           <br>
+            <div class="flex">
+                <div class="w60">
+                    <p id="aboutMeContent">Actuellement en licence MIASHS. Mon parcours académique m'a ouvert les portes du monde fascinant du développement web. Je m'intéresse particulièrement à l'intersection entre la créativité et la fonctionnalité dans la conception de solutions web.</p>
+                </div>
+            </div>
+       <br>     
+    <div class="section beige">
+        <div class="boxed text-center">
+            <h2 id="competences">  Découvrez mes compétences </h2>
+            <h3> Web: </h3>
+            <div class="flex">
+                <div class="w33 skill">
+                    <img src="img/html3.png">
+                    <h4> HTML </h4>
+                </div>      
+                <div class="w34 skill">
+                    <img src="img/js2.png">
+                    <h4> JavaScript </h4>
+                </div> 
+                <div class="w33 skill">
+                    <img src="img/css4.png">
+                    <h4> CSS </h4>
+                </div> 
+            </div>
+            <br>
+            <h3> Programmation: </h3>
+            <div class="flex">
+                <div class="w20 skill">
+                    <img src="img/C2.png">
+                    <h4> C </h4>
+                </div> 
+                <div class="w20 skill">
+                    <img src="img/python2.png">
+                    <h4> Python </h4>
+                </div> 
+                <div class="w20 skill">
+                    <img src="img/java5.png">
+                    <h4> Java </h4>
+                </div> 
+                <div class="w20 skill">
+                    <img src="img/latex.png">
+                    <h4> LATEX </h4>
+                </div>
+                <div class="w20 skill">
+                    <img src="img/Matlab_Logo.png">
+                    <h4> Matlab</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="boxed text-center">
+            <h2 id="projet"> Mon projet </h2>
+            <h5> Web design</h5>
+            <p> Le web design est le processus de création visuelle et fonctionnelle d'un site web, visant à offrir une expérience utilisateur agréable et efficace. Les objectifs incluent une conception attrayante, une navigation intuitive, une accessibilité universelle et une réactivité sur divers appareils. Les technologies clés utilisées sont HTML, CSS et JavaScript, avec des outils de conception graphique, des frameworks, des CMS et des pratiques de SEO pour créer des sites esthétiques, conviviaux et bien référencés.</p>
+           <br>
+            <div class="flex space-between">
+                <div class="w32 exemple">
+                    <a href="https://www.mirazur.fr/">
+                      <img src="img/1.png">
+                    </a>
+                </div>
+                <div class="w32 exemple">
+                    <a href="https://explorekissaki.com/">
+                      <img src="img/3.png">
+                    </a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="section beige">
+        <div class="boxed text-center">
+            <h2 id="formations">Formations</h2>
+            <dl>
+                <dt><strong>Baccalauréat en Mathématiques</strong></dt>
+                <dd>
+                    <span class="subtitle">2019/2020</span> <br>
+                    <span>Mention assez bien</span>
+                </dd>
+    
+                <dt><strong>Licence en mathématiques appliquées</strong></dt>
+                <dd>
+                    <span class="subtitle">2022/2023</span> <br> 
+                    <span>Analyse numérique matricielle</span> <br>
+                    <span>SI et BD</span> <br>
+                    <span>Processus stochastique</span> <br>
+                    <span>Analyse exploratoire</span> <br>
+                    <span>Théorie des graphes</span> <br>
+                    <span>Simulation et pratique de logiciels</span> <br>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    
+    
+    <div class="section dark">
+        <div class="boxed text-center">
+            <h2 id="contacter">Contact</h2>
+            <p>
+                <span id="email">
+                    📧 <a href="mailto:nesrinelatrache@yahoo.com">nesrinelatrache@yahoo.com</a>
+                </span>
+            </p>
+        </div>
+    </div>
+    
+    <div class="section beige">
+        <div class="boxed text-center">
+            <h2> Réseaux sociaux et liens </h2>
+            <div >
+                    <a href="https://github.com/Nesnisse">
+                        <img src="img/git.png"  width="50" height="50">
+                    </a> <br>
+                </div>
+                <div >
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnesrine-latrache-03788a245%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app%26fbclid%3DIwAR0rvK0uLM-xML0obb_VPH3Ck6vRolYHAtA1hIFwWueL-mJC3M34PZZXu2Y&h=AT3Fc13C1nStCHyz7E1Y0c9-z12YISdQKSb8GogvD3s3E9_S4XhHL1zKxhdqcNXe-0LdFqGDfyt5JJkyJByvgsgtDFV2IuDxsTvS08OY8DYYcEw4gRt-JA9bKplH8iKqnsO2jw">
+                        <img src="img/link.png"  width="50" height="50">
+                    </a>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+        
+</body>
+<script src="js/app.js"></script>
+</html>  
+
+
